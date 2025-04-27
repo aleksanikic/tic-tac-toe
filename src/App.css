@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.board-row  {
+    display: flex;
+    justify-content: center;
+
+}
+.square{
+    background-color: white;
+    color: black;
+    width: 32.2px;
+    height: 32.2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.square:hover{
+    background-color:black ;
+    color:white;
+}
+.status{
+    font-size: 20px;
+    border-color: black;
+}
+.squareHighlight{
+    background-color:black ;
+    color:white;
+    border-color: aqua;
+}
+
